@@ -1,0 +1,68 @@
+/* ───────────────────────────────────────────────
+   Spica color scheme (from "Color Scheme" reference)
+   ─────────────────────────────────────────────── */
+:root {
+  /* Fondo de pantalla · gris perla */
+  --color-bg: #f1efeb;
+
+  /* Tarjetas, con borde */
+  --color-card: #fbfaf7;
+  --color-card-border: #e0d9d6;
+
+  /* Barra superior · rosa palo */
+  --color-topbar: #e0cacd;
+
+  /* Botones principales y menú activo · rosa, con texto oscuro */
+  --color-primary: #e0b0bd;
+  --color-on-primary: #2b2629;
+
+  /* Detalles y etiquetas */
+  --color-lilac: #e5d3e6;
+  --color-sage: #ecefe7;
+  --color-sand: #e4d7c6;
+  --color-cream: #ebead3;
+
+  /* Texto · casi negro cálido */
+  --color-text: #2b2629;
+  --color-text-soft: #4a4246;   /* body copy on cards */
+  --color-text-muted: #6b6266;  /* labels, captions */
+  --color-accent-brown: #7a5a3a;
+  --color-line: #cfc5c1;        /* outlined buttons, inputs */
+
+  /* Status: Normal / Caution / Warning / Advisory */
+  --status-normal: #79b814;
+  --status-normal-ink: #1f2a0a;
+  --status-normal-soft: #e3f0cc;
+  --status-caution: #efc621;
+  --status-caution-ink: #2b2205;
+  --status-caution-soft: #fbf0c4;
+  --status-caution-line: #8a6d00; /* darker caution for thin lines on light bg */
+  --status-warning: #e02c2a;
+  --status-warning-ink: #ffffff;
+  --status-warning-soft: #f8d9d8;
+  --status-advisory: #399de3;
+  --status-advisory-ink: #0b2a40;
+  --status-advisory-soft: #d5eaf9;
+
+  /* Type */
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 22px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --gap-xs: 6px;
+  --gap-sm: 10px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+
+  --topbar-height: 64px;
+  --nav-width: 200px;
+  --shadow-pop: 8px 0 30px rgba(43, 38, 41, 0.18);
+  --scrim: rgba(43, 38, 41, 0.3);
+}
